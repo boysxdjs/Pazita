@@ -142,7 +142,7 @@ global.asistencia = 'https://www.instagram.com/optimus.ventas.bot' //Contacto
 
 global.nna = 'https://chat.whatsapp.com/GORUKC3sPk243HlE0FzFYa' // CANAL UPDATE
 global.nn2 = 'https://www.instagram.com/optimus.ventas.bot' // CANAL GataBot
-global.nna2 = 'https://www.instagram.com/optimus.ventas.bot // Help
+global.nna2 = 'https://www.instagram.com/optimus.ventas.bot' // Help
 global.nn = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 1
 global.nnn = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 2
 global.nnnt = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 3
