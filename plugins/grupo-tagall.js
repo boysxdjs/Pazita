@@ -5,12 +5,12 @@ throw false
 }
 let pesan = args.join` `
 let oi = `ღ ${lenguajeGB['smsAddB5']()} ${pesan}`
-let teks = `╭━〔 *${lenguajeGB['smstagaa']()}* 〕━⬣\n\n${oi}\n\n`
+let teks = `╭━〔 *Optimus Dice Que Te Actives* 〕━⬣\n\n${oi}\n\n`
 for (let mem of participants) {
 teks += `┃⊹ @${mem.id.split('@')[0]}\n`}
 teks += `┃\n`
-teks += `┃ ${wm}\n`
-teks += `╰━━━━━[ *𓃠 ${vs}* ]━━━━━⬣`
+teks += `┃ 
+teks += `╰━━━━━[ *optimus 2024* ]━━━━━⬣`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
 handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i
