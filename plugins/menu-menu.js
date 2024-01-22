@@ -90,6 +90,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
  ┃👤 Creador : Cristhofer
  ┃📱 Numero ; +51 902 360 712
  ┃🤑 Adquirir : +51 902 360 712
+ ┃🐱 Diseñadora : +52 222 897 8771
  ┃👻 Ig : ${md}
  ┃💻 Grupo : ${nna}
 *╰━━━━━━━━━━━━⬣*
