@@ -13,19 +13,12 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["51926933818", '〔 𝗢𝘄𝗻𝗲𝗿 𝗕𝗼𝘁 〕', true], //〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
-["573112811966"]]
+["51902360712", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', true], //〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
+["525526591934"], 
+["5492996111177"]]
 
 global.mods = []
 global.prems = []
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// ❰❰ RENDER ❱❱
-//Kurt18: Obtener el código QR por la URL del Hosting
-global.obtenerQrWeb = 0; //Solo valores: 1 o 0
-//Kurt18: Aplica para Host Render.com
-global.keepAliveRender = 0; //Solo valores: 1 o 0
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -45,7 +38,7 @@ global.confirmCode = "" // No tocar esto : Do not touch this line
 // Español 👉 es           
 // English 👉 en
 global.lenguajeGB = es
-global.mid = esDefault
+global.mid = enDefault
 global.version_language = '1.0 (MID-GB)'
 
 // [ES] > Si "default_language" esta vacío, su idioma predeterminado será Español o se usará el idioma que cada usuario haya seleccionado al momento de registrarse. 
@@ -111,7 +104,11 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["51926933818", '〔 𝗢𝘄𝗻𝗲𝗿 𝗕𝗼𝘁 〕', 1]]
+["51902360712", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', 1], 
+["51902360712", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', 1],  
+["51902360712", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', 1],
+["51902360712", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', 1],
+["51902360712", '〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -128,7 +125,7 @@ global.author = "〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕"
 // [EN] > ACCOUNTS AND BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
-global.gt = "〔 𝗢𝘄𝗻𝗲𝗿 𝗕𝗼𝘁 〕"
+global.gt = "〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕"
 
 global.yt = "https://www.instagram.com/optimus.ventas.bot"
 global.yt2 = "https://www.instagram.com/optimus.ventas.bot"
@@ -138,12 +135,12 @@ global.fb = "https://www.instagram.com/optimus.ventas.bot"
 global.tk = "https://www.instagram.com/optimus.ventas.bot"
 global.ths = "https://www.instagram.com/optimus.ventas.bot"
 global.paypal = 'https://www.instagram.com/optimus.ventas.bot'
-global.asistencia = 'https://www.instagram.com/optimus.ventas.bot' //Contacto
+global.asistencia = 'https://wa.me/51902360711' //Contacto
 
-global.nna = 'https://chat.whatsapp.com/GORUKC3sPk243HlE0FzFYa' // CANAL UPDATE
+global.nna = 'https://chat.whatsapp.com/FlSQ9PkM8lB5YPRv73ZbQ3' // CANAL UPDATE
 global.nn2 = 'https://www.instagram.com/optimus.ventas.bot' // CANAL GataBot
 global.nna2 = 'https://www.instagram.com/optimus.ventas.bot' // Help
-global.nn = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 1
+global.nn = 'https://chat.whatsapp.com/FlSQ9PkM8lB5YPRv73ZbQ3' // Grupo 1
 global.nnn = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 2
 global.nnnt = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 3
 global.nnntt = 'https://www.instagram.com/optimus.ventas.bot' // Grupo 4
@@ -177,13 +174,13 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
-global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
+global.wm = "〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕"
+global.igfg = "〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕"
 global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
 global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
 global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
-global.nomorown = "593993684821"
+global.nomorown = "51902360712"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -281,7 +278,7 @@ message: {
 }}}
 
 
-global.multiplier = 80 // Cuanto más alto, más difícil subir de nivel 
+global.multiplier = 70 // Cuanto más alto, más difícil subir de nivel 
 
 //Emojis RPG - Referencias
 global.rpg = {
